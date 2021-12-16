@@ -26,5 +26,6 @@
 
 
 #### This project was completed in 10 days by:
+- https://github.com/AugustVIII
 - https://github.com/raulgad
 - https://github.com/samot-samoe
