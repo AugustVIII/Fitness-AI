@@ -3,9 +3,12 @@
 ### Fizruk was created in order to practice yoga and workout in real time using computer vision
 - Fizruk supports 2 modes: yoga and workout
 - There are 3 exercises in each program
+
     Yoga: T-Pose, Warrior Pose, Tree Pose
+    
     Workout: Arms, Legs, Gym
-- Let's talk was created using [MediaPipe](https://github.com/google/mediapipe), [OpenCV](https://github.com/opencv/opencv), [Keras](https://github.com/keras-team/keras), [PyInstaller](https://github.com/pyinstaller/pyinstaller).
+    
+- Let's talk was created using [MediaPipe](https://github.com/google/mediapipe), [OpenCV](https://github.com/opencv/opencv),[PyInstaller](https://github.com/pyinstaller/pyinstaller).
 
 
 ### Example of application operation
