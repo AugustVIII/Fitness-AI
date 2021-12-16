@@ -15,7 +15,7 @@
 ![process](static/WarriorPose.gif)
 
 ### Vitrual hands control
-![virtual_control](static/hands_contol_2.gif)
+![virtual_control](static/hands_control.gif)
 
 ### The process of pose recognition consists of following steps:
 - Recieve video stream using OpenCV. 
