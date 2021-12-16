@@ -1,5 +1,5 @@
 # Fizruk
 Fitness application for yoga and workout (on Mediapipe and OpenCV)
 
-### Application in work
+### Example of application operation
 ![process](static/WarriorPose.gif)
