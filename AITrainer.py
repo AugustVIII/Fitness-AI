@@ -15,21 +15,6 @@ cap.set(3,window_width)
 cap.set(4,window_height)
 
 enable_segmentation=True
-# #-------------------------------------------
-# # Background video for Yoga
-# videoBack_yoga = 'T_pose_flip.mp4'
-# bg_video_name_yoga = os.path.join(dirname, videoBack_yoga)
-# capBackground_yoga = cv2.VideoCapture(bg_video_name_yoga)
-# capBackground_yoga.set(3,window_height)
-# capBackground_yoga.set(4,window_width)
-
-# #-------------------------------------------
-# # Background video fot Workout
-# videoBack_workout = 'Arms.mp4'
-# bg_video_name_workout = os.path.join(dirname, videoBack_workout)
-# capBackground_workout = cv2.VideoCapture(bg_video_name_workout)
-# capBackground_workout.set(3,window_height)
-# capBackground_workout.set(4,window_width)
 
 detector = pm.poseDetector(enable_segmentation=enable_segmentation)
 count = 0
@@ -411,10 +396,10 @@ while cap.isOpened():
 
                         if label_next_pose == 'T Pose':
                             label_next_pose = 'Warrior Pose'
-                            videoBack_yoga = 'Warrior_flip.mp4'
+                            videoBack_yoga = 'video_for_background/Warrior_flip.mp4'
                         elif label_next_pose == 'Warrior Pose':
                             label_next_pose = 'Tree Pose'
-                            videoBack_yoga = 'Tree_flip.mp4'
+                            videoBack_yoga = 'video_for_background/Tree_flip.mp4'
                         elif label_next_pose == 'Tree Pose':
                             label_next_pose = 'Done!'
                         
@@ -679,10 +664,10 @@ while cap.isOpened():
 
                         if label_next_pose == 'T Pose':
                             label_next_pose = 'Warrior Pose'
-                            videoBack_yoga = 'Warrior_flip.mp4'
+                            videoBack_yoga = 'video_for_background/Warrior_flip.mp4'
                         elif label_next_pose == 'Warrior Pose':
                             label_next_pose = 'Tree Pose'
-                            videoBack_yoga = 'Tree_flip.mp4'
+                            videoBack_yoga = 'video_for_background/Tree_flip.mp4'
                         elif label_next_pose == 'Tree Pose':
                             label_next_pose = 'Done!'
 
@@ -867,10 +852,10 @@ while cap.isOpened():
                 # Switch next exersises
                 if label_next_pose == 'Arms':
                     label_next_pose = 'Legs'
-                    videoBack_workout = 'Legs_flip.mp4'
+                    videoBack_workout = 'video_for_background/Legs_flip.mp4'
                 elif label_next_pose == 'Legs':
                     label_next_pose = 'Gym'
-                    videoBack_workout = 'Gym_flip.mp4'
+                    videoBack_workout = 'video_for_background/Gym_flip.mp4'
                 elif label_next_pose == 'Gym':
                     label_next_pose = 'Done!'
      
@@ -1168,10 +1153,10 @@ while cap.isOpened():
                         # Switch next exersises
                         if label_next_pose == 'Arms':
                             label_next_pose = 'Legs'
-                            videoBack_workout = 'Legs_flip.mp4'
+                            videoBack_workout = 'video_for_background/Legs_flip.mp4'
                         elif label_next_pose == 'Legs':
                             label_next_pose = 'Gym'
-                            videoBack_workout = 'Gym_flip.mp4'
+                            videoBack_workout = 'video_for_background/Gym_flip.mp4'
                         elif label_next_pose == 'Gym':
                             label_next_pose = 'Done!'
                 
@@ -1251,7 +1236,7 @@ while cap.isOpened():
                         hand_in_ptimer_inittime = 1000000000000
 
                         label_next_pose = 'T Pose'
-                        videoBack_yoga = 'T_pose_flip.mp4'
+                        videoBack_yoga = 'video_for_background/T_pose_flip.mp4'
                         bg_video_name_yoga = os.path.join(dirname, videoBack_yoga)
                         capBackground_yoga = cv2.VideoCapture(bg_video_name_yoga)
                         # capBackground_yoga.set(3,window_height)
@@ -1353,7 +1338,7 @@ while cap.isOpened():
 
                         #-----------------------------------------------------------
                         label_next_pose = 'Arms'
-                        videoBack_workout = 'Arms_flip.mp4'
+                        videoBack_workout = 'video_for_background/Arms_flip.mp4'
                         bg_video_name_workout = os.path.join(dirname, videoBack_workout)
                         capBackground_workout = cv2.VideoCapture(bg_video_name_workout)
                         # capBackground_workout.set(3,window_height)
