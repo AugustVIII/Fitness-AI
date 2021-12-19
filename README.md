@@ -8,7 +8,7 @@
     
     Workout: Arms, Legs, Gym
     
-- Let's talk was created using [MediaPipe](https://github.com/google/mediapipe), [OpenCV](https://github.com/opencv/opencv), [PyInstaller](https://github.com/pyinstaller/pyinstaller).
+- Fizruk was created using [MediaPipe](https://github.com/google/mediapipe), [OpenCV](https://github.com/opencv/opencv), [PyInstaller](https://github.com/pyinstaller/pyinstaller).
 
 
 ### Example of application operation
